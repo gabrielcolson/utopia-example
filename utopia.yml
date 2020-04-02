@@ -2,3 +2,9 @@ features:
   - name: eslint
     description: lint your project with eslint
     branch: utopia/eslint
+  - name: prettier
+    description: format your project with prettier
+    branch: utopia/prettier
+  - name: auth
+    description: basic cookie based authentication
+    branch: utopia/auth
