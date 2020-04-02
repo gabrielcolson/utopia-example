@@ -1,0 +1,4 @@
+features:
+  - name: eslint
+    description: lint your project with eslint
+    branch: utopia/eslint
