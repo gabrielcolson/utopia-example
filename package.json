@@ -4,7 +4,8 @@
   "description": "example for the utopia project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/gabrielcolson/utopia-example/issues"
   },
-  "homepage": "https://github.com/gabrielcolson/utopia-example#readme"
+  "homepage": "https://github.com/gabrielcolson/utopia-example#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
 }
